@@ -24,12 +24,12 @@
       <description>
         
         
-        &lt;h2&gt;Prerequisites&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;prerequisites&#34;&gt;&lt;/span&gt;
+        &lt;h2 data-hextra-search-id=&#34;prerequisites&#34;&gt;Prerequisites&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;prerequisites&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#prerequisites&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
 &lt;li&gt;Install ROS2&lt;/li&gt;
 &lt;li&gt;Install VSCode&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2&gt;Install PlatformIO for VSCode:&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;install-platformio-for-vscode&#34;&gt;&lt;/span&gt;
+&lt;h2 data-hextra-search-id=&#34;install-platformio-for-vscode&#34;&gt;Install PlatformIO for VSCode:&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;install-platformio-for-vscode&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#install-platformio-for-vscode&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;Install VSCode, if you haven&amp;rsquo;t already&lt;/li&gt;
 &lt;/ul&gt;
@@ -70,10 +70,10 @@ OR,&lt;/li&gt;
 &lt;li&gt;After Installing the extension,
 Click on the PlatformIO button or clicking the home button on status bar or by searching &amp;ldquo;&lt;strong&gt;platfomio home&lt;/strong&gt;&amp;rdquo; on command palette (&lt;code&gt;ctrl+shift+p&lt;/code&gt;)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Setting up PlatformIO Project&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;setting-up-platformio-project&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#setting-up-platformio-project&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Resolve Dependencies&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;resolve-dependencies&#34;&gt;&lt;/span&gt;
+&lt;h2 data-hextra-search-id=&#34;setting-up-platformio-project&#34;&gt;Setting up PlatformIO Project&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;setting-up-platformio-project&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#setting-up-platformio-project&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3 data-hextra-search-id=&#34;resolve-dependencies&#34;&gt;Resolve Dependencies&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;resolve-dependencies&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#resolve-dependencies&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;Install the requirement dependencies mentioned &lt;a href=&#34;https://github.com/micro-ROS/micro_ros_platformio?tab=readme-ov-file#requirements&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Install the requirement dependencies mentioned &lt;a href=&#34;https://github.com/micro-ROS/micro_ros_platformio?tab=readme-ov-file#requirements&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
 
@@ -89,7 +89,7 @@ Click on the PlatformIO button or clicking the home button on status bar or by s
   &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;h3&gt;Create a New Project&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;create-a-new-project&#34;&gt;&lt;/span&gt;
+&lt;h3 data-hextra-search-id=&#34;create-a-new-project&#34;&gt;Create a New Project&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;create-a-new-project&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#create-a-new-project&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Open VSCode&lt;/strong&gt;&lt;/p&gt;
@@ -119,7 +119,7 @@ by searching &amp;ldquo;&lt;strong&gt;platfomio home&lt;/strong&gt;&amp;rdquo; o
   &lt;p&gt;Note: To open the project later you only have to open this specific older where the &lt;code&gt;.ini&lt;/code&gt; file is stored.&lt;/p&gt;
 
 &lt;/blockquote&gt;
-&lt;h3&gt;Configure &lt;code&gt;.ini&lt;/code&gt; file&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;configure-ini-file&#34;&gt;&lt;/span&gt;
+&lt;h3 data-hextra-search-id=&#34;configure-ini-file&#34;&gt;Configure &lt;code&gt;.ini&lt;/code&gt; file&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;configure-ini-file&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#configure-ini-file&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The {project}.ini file should already be populated with some values:&lt;/p&gt;
 &lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
 
@@ -166,13 +166,13 @@ by searching &amp;ldquo;&lt;strong&gt;platfomio home&lt;/strong&gt;&amp;rdquo; o
   &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;em&gt;&lt;code&gt;board_microros_*&lt;/code&gt;&lt;/em&gt; are optional and should be changed based on your preferred value (all possible values can be found &lt;a href=&#34;https://github.com/micro-ROS/micro_ros_platformio?tab=readme-ov-file#library-configuration&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.)&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;code&gt;board_microros_*&lt;/code&gt;&lt;/em&gt; are optional and should be changed based on your preferred value (all possible values can be found &lt;a href=&#34;https://github.com/micro-ROS/micro_ros_platformio?tab=readme-ov-file#library-configuration&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.)&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;Upon saving this file pltformIO will download all the pkgs and will build everything in the background, Don&amp;rsquo;t panic and Do Not close the Application.&lt;/p&gt;
 
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Basic setup for the project is done,&lt;/strong&gt; Now do the code in main.cpp under /src folder.&lt;/p&gt;
-&lt;h2&gt;Resources&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;resources&#34;&gt;&lt;/span&gt;
+&lt;h2 data-hextra-search-id=&#34;resources&#34;&gt;Resources&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;resources&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#resources&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div style=&#34;display:flex; align-items:center; gap:30px;&#34;&gt;
   &lt;!-- Video (fixed 30% width of screen) --&gt;
   &lt;div style=&#34;width:30%;  margin-top:12px; border-radius:15px; overflow:hidden;&#34;&gt;

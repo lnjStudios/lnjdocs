@@ -24,12 +24,12 @@
       <description>
         
         
-        &lt;h2&gt;Prerequisites&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;prerequisites&#34;&gt;&lt;/span&gt;
+        &lt;h2 data-hextra-search-id=&#34;prerequisites&#34;&gt;Prerequisites&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;prerequisites&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#prerequisites&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
 &lt;li&gt;Install ROS2&lt;/li&gt;
 &lt;li&gt;Install VSCode&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2&gt;Install PlatformIO for VSCode:&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;install-platformio-for-vscode&#34;&gt;&lt;/span&gt;
+&lt;h2 data-hextra-search-id=&#34;install-platformio-for-vscode&#34;&gt;Install PlatformIO for VSCode:&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;install-platformio-for-vscode&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#install-platformio-for-vscode&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;Install VSCode, if you haven&amp;rsquo;t already&lt;/li&gt;
 &lt;/ul&gt;
@@ -70,10 +70,10 @@ OR,&lt;/li&gt;
 &lt;li&gt;After Installing the extension,
 Click on the PlatformIO button or clicking the home button on status bar or by searching &amp;ldquo;&lt;strong&gt;platfomio home&lt;/strong&gt;&amp;rdquo; on command palette (&lt;code&gt;ctrl+shift+p&lt;/code&gt;)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Setting up PlatformIO Project&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;setting-up-platformio-project&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#setting-up-platformio-project&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Resolve Dependencies&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;resolve-dependencies&#34;&gt;&lt;/span&gt;
+&lt;h2 data-hextra-search-id=&#34;setting-up-platformio-project&#34;&gt;Setting up PlatformIO Project&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;setting-up-platformio-project&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#setting-up-platformio-project&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3 data-hextra-search-id=&#34;resolve-dependencies&#34;&gt;Resolve Dependencies&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;resolve-dependencies&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#resolve-dependencies&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;Install the requirement dependencies mentioned &lt;a href=&#34;https://github.com/micro-ROS/micro_ros_platformio?tab=readme-ov-file#requirements&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Install the requirement dependencies mentioned &lt;a href=&#34;https://github.com/micro-ROS/micro_ros_platformio?tab=readme-ov-file#requirements&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
 
@@ -89,7 +89,7 @@ Click on the PlatformIO button or clicking the home button on status bar or by s
   &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;h3&gt;Create a New Project&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;create-a-new-project&#34;&gt;&lt;/span&gt;
+&lt;h3 data-hextra-search-id=&#34;create-a-new-project&#34;&gt;Create a New Project&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;create-a-new-project&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#create-a-new-project&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Open VSCode&lt;/strong&gt;&lt;/p&gt;
@@ -119,7 +119,7 @@ by searching &amp;ldquo;&lt;strong&gt;platfomio home&lt;/strong&gt;&amp;rdquo; o
   &lt;p&gt;Note: To open the project later you only have to open this specific older where the &lt;code&gt;.ini&lt;/code&gt; file is stored.&lt;/p&gt;
 
 &lt;/blockquote&gt;
-&lt;h3&gt;Configure &lt;code&gt;.ini&lt;/code&gt; file&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;configure-ini-file&#34;&gt;&lt;/span&gt;
+&lt;h3 data-hextra-search-id=&#34;configure-ini-file&#34;&gt;Configure &lt;code&gt;.ini&lt;/code&gt; file&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;configure-ini-file&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#configure-ini-file&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The {project}.ini file should already be populated with some values:&lt;/p&gt;
 &lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
 
@@ -166,13 +166,13 @@ by searching &amp;ldquo;&lt;strong&gt;platfomio home&lt;/strong&gt;&amp;rdquo; o
   &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;em&gt;&lt;code&gt;board_microros_*&lt;/code&gt;&lt;/em&gt; are optional and should be changed based on your preferred value (all possible values can be found &lt;a href=&#34;https://github.com/micro-ROS/micro_ros_platformio?tab=readme-ov-file#library-configuration&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.)&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;code&gt;board_microros_*&lt;/code&gt;&lt;/em&gt; are optional and should be changed based on your preferred value (all possible values can be found &lt;a href=&#34;https://github.com/micro-ROS/micro_ros_platformio?tab=readme-ov-file#library-configuration&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.)&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;Upon saving this file pltformIO will download all the pkgs and will build everything in the background, Don&amp;rsquo;t panic and Do Not close the Application.&lt;/p&gt;
 
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Basic setup for the project is done,&lt;/strong&gt; Now do the code in main.cpp under /src folder.&lt;/p&gt;
-&lt;h2&gt;Resources&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;resources&#34;&gt;&lt;/span&gt;
+&lt;h2 data-hextra-search-id=&#34;resources&#34;&gt;Resources&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;resources&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#resources&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div style=&#34;display:flex; align-items:center; gap:30px;&#34;&gt;
   &lt;!-- Video (fixed 30% width of screen) --&gt;
   &lt;div style=&#34;width:30%;  margin-top:12px; border-radius:15px; overflow:hidden;&#34;&gt;
@@ -204,15 +204,15 @@ by searching &amp;ldquo;&lt;strong&gt;platfomio home&lt;/strong&gt;&amp;rdquo; o
         
         
         &lt;p&gt;Micro-ros has several ways to program them and build them, easiest way being the platformIO compilation with its standard CMake file structure way of handling projects.&lt;/p&gt;
-&lt;h2&gt;Prerequisites&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;prerequisites&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#prerequisites&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Follow &lt;a href=&#34;https://koustavbetal.github.io/guides/setting-up-microros/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;How to Setup for Micro-ROS on PlatformIO&lt;/strong&gt;&lt;/a&gt; Guide First.&lt;/p&gt;
-&lt;h2&gt;Basics Components of any Micro-ROS code&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;basics-components-of-any-micro-ros-code&#34;&gt;&lt;/span&gt;
+&lt;h2 data-hextra-search-id=&#34;prerequisites&#34;&gt;Prerequisites&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;prerequisites&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#prerequisites&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Follow &lt;a href=&#34;https://koustavbetal.github.io/guides/setting-up-microros/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;How to Setup for Micro-ROS on PlatformIO&lt;/strong&gt;&lt;/a&gt; Guide First.&lt;/p&gt;
+&lt;h2 data-hextra-search-id=&#34;basics-components-of-any-micro-ros-code&#34;&gt;Basics Components of any Micro-ROS code&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;basics-components-of-any-micro-ros-code&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#basics-components-of-any-micro-ros-code&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;blockquote&gt;
   &lt;p&gt;&lt;strong&gt;Micro-ROS code is nothing but a simple Arduino code sprinkled with micro-ros codes,
 The following sections describes all the required and optional code we have to add to work it properly.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;/blockquote&gt;
-&lt;h3&gt;Initialise Transportation&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;initialise-transportation&#34;&gt;&lt;/span&gt;
+&lt;h3 data-hextra-search-id=&#34;initialise-transportation&#34;&gt;Initialise Transportation&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;initialise-transportation&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#initialise-transportation&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
 
 &lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c++&#34; data-lang=&#34;c++&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;set_microros_transports&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// Serial/Wifi/*
@@ -229,7 +229,7 @@ The following sections describes all the required and optional code we have to a
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;em&gt;Or do your custom transport config (not recommended for beginners)&lt;/em&gt;&lt;/p&gt;
-&lt;h3&gt;Allocator Setup&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;allocator-setup&#34;&gt;&lt;/span&gt;
+&lt;h3 data-hextra-search-id=&#34;allocator-setup&#34;&gt;Allocator Setup&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;allocator-setup&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#allocator-setup&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Allocator manages memory. It assigns and frees memory according to the needs.&lt;/p&gt;
 &lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
 
@@ -245,7 +245,7 @@ The following sections describes all the required and optional code we have to a
   &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;h3&gt;Initialise Micro-ROS Support&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;initialise-micro-ros-support&#34;&gt;&lt;/span&gt;
+&lt;h3 data-hextra-search-id=&#34;initialise-micro-ros-support&#34;&gt;Initialise Micro-ROS Support&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;initialise-micro-ros-support&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#initialise-micro-ros-support&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;It prepares the micro-ROS layer on ESP32.&lt;/p&gt;
 &lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
 
@@ -262,7 +262,7 @@ The following sections describes all the required and optional code we have to a
   &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;h3&gt;Create Nodes&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;create-nodes&#34;&gt;&lt;/span&gt;
+&lt;h3 data-hextra-search-id=&#34;create-nodes&#34;&gt;Create Nodes&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;create-nodes&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#create-nodes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The micro-ROS node that hosts pubs/subs/services.&lt;/p&gt;
 &lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
 
@@ -279,9 +279,9 @@ The following sections describes all the required and optional code we have to a
   &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;h3&gt;Create Topics/Services&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;create-topicsservices&#34;&gt;&lt;/span&gt;
+&lt;h3 data-hextra-search-id=&#34;create-topicsservices&#34;&gt;Create Topics/Services&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;create-topicsservices&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#create-topicsservices&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;This is where you define your interface.&lt;/p&gt;
-&lt;h4&gt;Create Publisher&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;create-publisher&#34;&gt;&lt;/span&gt;
+&lt;h4 data-hextra-search-id=&#34;create-publisher&#34;&gt;Create Publisher&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;create-publisher&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#create-publisher&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
 
 &lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c++&#34; data-lang=&#34;c++&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;rcl_publisher_t&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;publisher&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
@@ -302,7 +302,7 @@ The following sections describes all the required and optional code we have to a
   &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;h4&gt;Create Subscriber&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;create-subscriber&#34;&gt;&lt;/span&gt;
+&lt;h4 data-hextra-search-id=&#34;create-subscriber&#34;&gt;Create Subscriber&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;create-subscriber&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#create-subscriber&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
 
 &lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c++&#34; data-lang=&#34;c++&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;rcl_subscription_t&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;subscriber&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
@@ -323,7 +323,7 @@ The following sections describes all the required and optional code we have to a
   &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;h4&gt;Create Timer (Optional)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;create-timer-optional&#34;&gt;&lt;/span&gt;
+&lt;h4 data-hextra-search-id=&#34;create-timer-optional&#34;&gt;Create Timer (Optional)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;create-timer-optional&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#create-timer-optional&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
 
 &lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c++&#34; data-lang=&#34;c++&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;rcl_timer_t&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;timer&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
@@ -344,11 +344,11 @@ The following sections describes all the required and optional code we have to a
   &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;h2&gt;Let&amp;rsquo;s Construct the code!!&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;lets-construct-the-code&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#lets-construct-the-code&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;This code is inspired from &lt;a href=&#34;https://github.com/rasheeddo/pubsub_many/tree/master&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;rasheeddo&lt;/a&gt; on GitHub.
+&lt;h2 data-hextra-search-id=&#34;lets-construct-the-code&#34;&gt;Let&amp;rsquo;s Construct the code!!&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;lets-construct-the-code&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#lets-construct-the-code&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;This code is inspired from &lt;a href=&#34;https://github.com/rasheeddo/pubsub_many/tree/master&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;rasheeddo&lt;/a&gt; on GitHub.
 &lt;em&gt;&lt;strong&gt;Anything is written under TODO: can and should be updated!
 Else that function is required for the ros-agent&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;h3&gt;Let&amp;rsquo;s Include all Necessary Headers/libraries&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;lets-include-all-necessary-headerslibraries&#34;&gt;&lt;/span&gt;
+&lt;h3 data-hextra-search-id=&#34;lets-include-all-necessary-headerslibraries&#34;&gt;Let&amp;rsquo;s Include all Necessary Headers/libraries&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;lets-include-all-necessary-headerslibraries&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#lets-include-all-necessary-headerslibraries&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
 
 &lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c++&#34; data-lang=&#34;c++&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;/////////////////////
@@ -379,8 +379,8 @@ Else that function is required for the ros-agent&lt;/strong&gt;&lt;/em&gt;&lt;/p
   &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;h3&gt;Declare all the Necessary Objects&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;declare-all-the-necessary-objects&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#declare-all-the-necessary-objects&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;Declare rcl objects&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;declare-rcl-objects&#34;&gt;&lt;/span&gt;
+&lt;h3 data-hextra-search-id=&#34;declare-all-the-necessary-objects&#34;&gt;Declare all the Necessary Objects&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;declare-all-the-necessary-objects&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#declare-all-the-necessary-objects&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4 data-hextra-search-id=&#34;declare-rcl-objects&#34;&gt;Declare rcl objects&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;declare-rcl-objects&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#declare-rcl-objects&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
 
 &lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt;/*
@@ -403,7 +403,7 @@ Else that function is required for the ros-agent&lt;/strong&gt;&lt;/em&gt;&lt;/p
   &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;h4&gt;Declare all the publishers, subscribers &amp;amp; Services object&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;declare-all-the-publishers-subscribers--services-object&#34;&gt;&lt;/span&gt;
+&lt;h4 data-hextra-search-id=&#34;declare-all-the-publishers-subscribers--services-object&#34;&gt;Declare all the publishers, subscribers &amp;amp; Services object&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;declare-all-the-publishers-subscribers--services-object&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#declare-all-the-publishers-subscribers--services-object&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
 
 &lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt;/*
@@ -424,7 +424,7 @@ Else that function is required for the ros-agent&lt;/strong&gt;&lt;/em&gt;&lt;/p
   &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;h4&gt;Create msg objects&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;create-msg-objects&#34;&gt;&lt;/span&gt;
+&lt;h4 data-hextra-search-id=&#34;create-msg-objects&#34;&gt;Create msg objects&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;create-msg-objects&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#create-msg-objects&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
 
 &lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt;/*
@@ -444,8 +444,8 @@ Else that function is required for the ros-agent&lt;/strong&gt;&lt;/em&gt;&lt;/p
   &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;h3&gt;Create Entities&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;create-entities&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#create-entities&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;Init Configurations&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;init-configurations&#34;&gt;&lt;/span&gt;
+&lt;h3 data-hextra-search-id=&#34;create-entities&#34;&gt;Create Entities&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;create-entities&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#create-entities&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4 data-hextra-search-id=&#34;init-configurations&#34;&gt;Init Configurations&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;init-configurations&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#init-configurations&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
 
 &lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt;/*
@@ -468,7 +468,7 @@ Else that function is required for the ros-agent&lt;/strong&gt;&lt;/em&gt;&lt;/p
   &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;h4&gt;Initialise rcl objects&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;initialise-rcl-objects&#34;&gt;&lt;/span&gt;
+&lt;h4 data-hextra-search-id=&#34;initialise-rcl-objects&#34;&gt;Initialise rcl objects&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;initialise-rcl-objects&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#initialise-rcl-objects&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
 
 &lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt;/*
@@ -492,7 +492,7 @@ Else that function is required for the ros-agent&lt;/strong&gt;&lt;/em&gt;&lt;/p
   &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;h4&gt;Initialise Topics&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;initialise-topics&#34;&gt;&lt;/span&gt;
+&lt;h4 data-hextra-search-id=&#34;initialise-topics&#34;&gt;Initialise Topics&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;initialise-topics&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#initialise-topics&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
 
 &lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt;/*
@@ -527,7 +527,7 @@ Else that function is required for the ros-agent&lt;/strong&gt;&lt;/em&gt;&lt;/p
   &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;h3&gt;Start the Executor&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;start-the-executor&#34;&gt;&lt;/span&gt;
+&lt;h3 data-hextra-search-id=&#34;start-the-executor&#34;&gt;Start the Executor&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;start-the-executor&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#start-the-executor&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
 
 &lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt;/*
@@ -556,7 +556,7 @@ Else that function is required for the ros-agent&lt;/strong&gt;&lt;/em&gt;&lt;/p
 &lt;/div&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;But as we know all the Subscribers needs a callback func();
 We need to create those too!&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;h4&gt;Create Subscription Callback&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;create-subscription-callback&#34;&gt;&lt;/span&gt;
+&lt;h4 data-hextra-search-id=&#34;create-subscription-callback&#34;&gt;Create Subscription Callback&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;create-subscription-callback&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#create-subscription-callback&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
 
 &lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt;/*
@@ -584,9 +584,9 @@ We need to create those too!&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
   &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;h4&gt;Create Timer for Publisher&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;create-timer-for-publisher&#34;&gt;&lt;/span&gt;
+&lt;h4 data-hextra-search-id=&#34;create-timer-for-publisher&#34;&gt;Create Timer for Publisher&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;create-timer-for-publisher&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#create-timer-for-publisher&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;This is tied to hardware timer, which will call the publishers in fixed time interval&lt;/strong&gt;&lt;/p&gt;
-&lt;h5&gt;Initialise Timer&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;initialise-timer&#34;&gt;&lt;/span&gt;
+&lt;h5 data-hextra-search-id=&#34;initialise-timer&#34;&gt;Initialise Timer&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;initialise-timer&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#initialise-timer&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
 
 &lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt;/*
@@ -610,7 +610,7 @@ We need to create those too!&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
   &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;h5&gt;Create timer_callback()&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;create-timer_callback&#34;&gt;&lt;/span&gt;
+&lt;h5 data-hextra-search-id=&#34;create-timer_callback&#34;&gt;Create timer_callback()&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;create-timer_callback&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#create-timer_callback&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
 
 &lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;timer_callback&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;rcl_timer_t&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;timer&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;int64_t&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;last_call_time&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
@@ -647,7 +647,7 @@ We need to create those too!&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;Our bare bone Micro-ROS code is ready to deploy, although there are some precautions we have to take for reusing the hardware next time without any issues.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;h3&gt;Destroy All Created Entities / Destructor&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;destroy-all-created-entities--destructor&#34;&gt;&lt;/span&gt;
+&lt;h3 data-hextra-search-id=&#34;destroy-all-created-entities--destructor&#34;&gt;Destroy All Created Entities / Destructor&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;destroy-all-created-entities--destructor&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#destroy-all-created-entities--destructor&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
 
 &lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	&lt;span class=&#34;n&#34;&gt;rmw_context_t&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;rmw_context&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;rcl_context_get_rmw_context&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;support&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;context&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
@@ -677,9 +677,9 @@ We need to create those too!&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
   &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;h3&gt;Optional Helper Functions&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;optional-helper-functions&#34;&gt;&lt;/span&gt;
+&lt;h3 data-hextra-search-id=&#34;optional-helper-functions&#34;&gt;Optional Helper Functions&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;optional-helper-functions&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#optional-helper-functions&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;rcl() has some status codes, based on that we can essentially manage the ros-agent as well as the ESP32&lt;/strong&gt;&lt;/p&gt;
-&lt;h4&gt;Defining the Status States&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;defining-the-status-states&#34;&gt;&lt;/span&gt;
+&lt;h4 data-hextra-search-id=&#34;defining-the-status-states&#34;&gt;Defining the Status States&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;defining-the-status-states&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#defining-the-status-states&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
 
 &lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt;/*
@@ -708,7 +708,7 @@ We need to create those too!&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
   &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;h4&gt;Managing the Agent&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;managing-the-agent&#34;&gt;&lt;/span&gt;
+&lt;h4 data-hextra-search-id=&#34;managing-the-agent&#34;&gt;Managing the Agent&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;managing-the-agent&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#managing-the-agent&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;As we constantly have to monitor to manage the agent and the board we can add this to Arduino&amp;rsquo;s builtin &lt;code&gt;loop()&lt;/code&gt; function&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
 
@@ -762,7 +762,7 @@ We need to create those too!&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
   &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;h2&gt;Stitching Everything Together!!&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;stitching-everything-together&#34;&gt;&lt;/span&gt;
+&lt;h2 data-hextra-search-id=&#34;stitching-everything-together&#34;&gt;Stitching Everything Together!!&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;stitching-everything-together&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#stitching-everything-together&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
 
 &lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -1533,8 +1533,8 @@ We need to create those too!&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
       <description>
         
         
-        &lt;h2&gt;PIO configuration (.ini) for ESP32-S3&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;pio-configuration-ini-for-esp32-s3&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#pio-configuration-ini-for-esp32-s3&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Tested with &lt;a href=&#34;https://github.com/microrobotics/ESP32-S3-N16R8/blob/main/ESP32-S3-N16R8_User_Guide.pdf&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ESP32-S3-N16R8&lt;/a&gt; board, which has 2 USB ports. (USB &amp;amp; COM)&lt;/p&gt;
+        &lt;h2 data-hextra-search-id=&#34;pio-configuration-ini-for-esp32-s3&#34;&gt;PIO configuration (.ini) for ESP32-S3&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;pio-configuration-ini-for-esp32-s3&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#pio-configuration-ini-for-esp32-s3&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Tested with &lt;a href=&#34;https://github.com/microrobotics/ESP32-S3-N16R8/blob/main/ESP32-S3-N16R8_User_Guide.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ESP32-S3-N16R8&lt;/a&gt; board, which has 2 USB ports. (USB &amp;amp; COM)&lt;/p&gt;
 &lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
 
 &lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-ini&#34; data-lang=&#34;ini&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;[env:esp32-s3-devkitc-1]&lt;/span&gt;
@@ -1565,7 +1565,7 @@ We need to create those too!&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
   &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;h5&gt;Important: Use &lt;code&gt;USB&lt;/code&gt; port to upload code, and &lt;code&gt;COM&lt;/code&gt; for connecting with ROS2&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;important-use-usb-port-to-upload-code-and-com-for-connecting-with-ros2&#34;&gt;&lt;/span&gt;
+&lt;h5 data-hextra-search-id=&#34;important-use-usb-port-to-upload-code-and-com-for-connecting-with-ros2&#34;&gt;Important: Use &lt;code&gt;USB&lt;/code&gt; port to upload code, and &lt;code&gt;COM&lt;/code&gt; for connecting with ROS2&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;important-use-usb-port-to-upload-code-and-com-for-connecting-with-ros2&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#important-use-usb-port-to-upload-code-and-com-for-connecting-with-ros2&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;
       </description>
     </item>

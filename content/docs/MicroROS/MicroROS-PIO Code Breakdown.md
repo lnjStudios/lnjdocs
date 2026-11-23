@@ -11,7 +11,7 @@ params:
   width: full
 authors:
   - name: koustav
-    link: /members/koustav
+    link: https://lnjstudios.com/koustav/
     image: https://github.com/koustavbetal.png
 ---
 Micro-ros has several ways to program them and build them, easiest way being the platformIO compilation with its standard CMake file structure way of handling projects.

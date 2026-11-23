@@ -6,3 +6,79 @@
 .hextra-footer .social-media :hover{
     transform: translateY(-2px);
 }
+
+/* footer: credits on the left, LnJ mark (main site) + socials on the right; stacks on phones */
+.lnj-footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.lnj-footer-credits {
+    display: flex;
+    flex-direction: column;
+}
+
+.lnj-footer-links {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+/* the "/" hint in the navbar search button; same look as the theme's .hextra-search-trigger-kbd, but square */
+.lnj-search-kbd {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 1.25rem;
+    height: 1.25rem;
+    user-select: none;
+    border: 1px solid rgb(229 231 235);
+    border-radius: 0.25rem;
+    background-color: #fff;
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 10px;
+    font-weight: 500;
+    color: rgb(107 114 128);
+}
+
+.dark .lnj-search-kbd {
+    border-color: rgb(243 244 246 / 0.2);
+    background-color: rgb(17 17 17 / 0.5);
+}
+
+@media (min-width: 768px) {
+    .lnj-search-kbd {
+        display: inline-flex;
+    }
+}
+
+@media (max-width: 639px) {
+    .lnj-footer-row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .lnj-footer-credits {
+        align-items: center;
+    }
+}
+
+
+
+/* Docs sidebar: current topic title (layouts/_partials/sidebar.html) */
+.lnj-sidebar-topic > .hextra-sidebar-item > a {
+    font-weight: 600;
+}
+
+.lnj-sidebar-topic > .hextra-sidebar-item[data-active="false"] > a {
+    color: rgb(17 24 39);
+}
+
+.dark .lnj-sidebar-topic > .hextra-sidebar-item[data-active="false"] > a {
+    color: rgb(243 244 246);
+}

@@ -1,7 +1,7 @@
-{{- /* Modified version of https://github.com/imfing/hextra/blob/v0.10.0/layouts/_partials/footer.html */ -}}
+{{- /* Modified version of https://github.com/imfing/hextra/blob/v0.13.0/layouts/_partials/footer.html */ -}}
 {{- /* This file overrides the footer partial of the theme */ -}}
 
-{{- $enableFooterSwitches := .Scratch.Get "enableFooterSwitches" | default false -}}
+{{- $enableFooterSwitches := .Store.Get "enableFooterSwitches" | default false -}}
 {{- $displayThemeToggle := site.Params.theme.displayToggle | default true -}}
 {{- $footerSwitchesVisible := and $enableFooterSwitches (or hugo.IsMultilingual $displayThemeToggle) -}}
 {{- $copyrightSectionVisible := or (.Site.Params.footer.displayPoweredBy | default true) .Site.Params.footer.displayCopyright -}}
@@ -21,9 +21,9 @@
   {{- end -}}
 
   {{- if $copyrightSectionVisible -}}
-    <div class="hextra-max-footer-width hx:mx-auto  hx:mx-auto hx:flex hx:items-center hx:justify-end hx:gap-2 hx:h-16 hx:px-6 hx:text-gray-600 hx:dark:text-gray-400 hx:md:justify-start">
+    <div class="lnj-footer-row hextra-max-footer-width hx:mx-auto hx:px-6 hx:text-gray-600 hx:dark:text-gray-400">
 
-      <div class="hx:flex hx:w-full hx:flex-col hx:items-center hx:sm:items-start" >
+      <div class="lnj-footer-credits">
 
         {{- if .Site.Params.footer.displayCopyright }}
         <span class="hx:mr-2 hx:inline">{{ $copyright | markdownify }}</span>
@@ -35,14 +35,16 @@
 
       </div>
 
-      {{- range .Site.Params.footer.links -}}
-      {{- $external := strings.HasPrefix .url "http" -}}
-      <a title="{{ .title }}" href="{{ .url }}" {{ if $external }}target="_blank"{{ end }} class="social-media hx:text-sm hx:contrast-more:text-gray-700 hx:contrast-more:dark:text-gray-100 hx:relative -hx:ml-2 hx:whitespace-nowrap hx:p-1 hx:md:inline-block hx:text-gray-600 hx:hover:text-gray-800 hx:dark:text-gray-400 hx:dark:hover:text-gray-200">
-        <span class="hx:text-center">
-           {{- partial "utils/icon.html" (dict "name" .icon "attributes" "height=20") -}}
-        </span>
-      </a>
-      {{- end -}}
+      <div class="lnj-footer-links">
+        {{- range .Site.Params.footer.links -}}
+        {{- $external := strings.HasPrefix .url "http" -}}
+        <a title="{{ .title }}" href="{{ .url }}" {{ if $external }}target="_blank"{{ end }} class="social-media hx:text-sm hx:contrast-more:text-gray-700 hx:contrast-more:dark:text-gray-100 hx:relative hx:whitespace-nowrap hx:p-1 hx:md:inline-block hx:text-gray-600 hx:hover:text-gray-800 hx:dark:text-gray-400 hx:dark:hover:text-gray-200">
+          <span class="hx:text-center">
+             {{- partial "utils/icon.html" (dict "name" .icon "attributes" "height=20") -}}
+          </span>
+        </a>
+        {{- end -}}
+      </div>
 
     </div>
   {{- end -}}

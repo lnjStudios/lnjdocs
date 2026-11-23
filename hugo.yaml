@@ -1,5 +1,5 @@
 baseURL: https://docs.lnjstudios.com/
-languageCode: en-us
+locale: en-us
 title: Links and Docs
 enableInlineShortcodes: true
 #hextra-scrollbar: false
@@ -54,6 +54,9 @@ params:
     displayPoweredBy: true
     width: wide
     links:
+      - title: LnJ Studios
+        url: "https://lnjstudios.com"
+        icon: lnj
       - title: YouTube
         url: "https://youtube.com/@linksnjoints"
         icon: youtube

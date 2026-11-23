@@ -24,7 +24,7 @@
       <description>
         
         
-        &lt;h1&gt;Key Notes&lt;/h1&gt;&lt;hr&gt;
+        &lt;h1 data-hextra-search-id=&#34;key-notes&#34;&gt;Key Notes&lt;/h1&gt;&lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;AuRoClean™&lt;/strong&gt; is an Acronym for &amp;ldquo;&lt;strong&gt;Au&lt;/strong&gt;tonomous &lt;strong&gt;Ro&lt;/strong&gt;bot for &lt;strong&gt;Clean&lt;/strong&gt;ing&amp;rdquo;, Initially made in collaboration with BARC in ROS(1) framework, with minimal Autonomous Behaviour[^1].
 Current version of AuRoClean™ is developed on the &lt;strong&gt;ROS2&lt;/strong&gt; middleware with &lt;strong&gt;Nav2&lt;/strong&gt; and &lt;strong&gt;slam_toolbox&lt;/strong&gt; for complete autonomous operation of the robot.&lt;/p&gt;
 

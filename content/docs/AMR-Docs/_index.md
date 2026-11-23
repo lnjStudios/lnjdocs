@@ -14,7 +14,7 @@ tags:
   - grduyfu
 authors: 
   - name: koustav
-    link: /members/koustav
+    link: https://lnjstudios.com/koustav/
     image: https://github.com/koustavbetal.png
 ---
 

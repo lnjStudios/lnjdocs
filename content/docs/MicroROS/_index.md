@@ -14,7 +14,7 @@ tags:
   - khuby
 authors: 
   - name: koustav
-    link: /members/koustav
+    link: https://lnjstudios.com/koustav/
     image: https://github.com/koustavbetal.png
 ---
 <svg xmlns="http://www.w3.org/2000/svg" version="1.0" viewBox="-120 0 1280 300">

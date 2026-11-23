@@ -9,7 +9,7 @@ date: '2025-10-04T17:04:33+05:30'
 
 authors:
   - name: koustav
-    link: /members/koustav
+    link: https://lnjstudios.com/koustav/
     image: https://github.com/koustavbetal.png
 ---
 
