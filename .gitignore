@@ -48,3 +48,9 @@ Thumbs.db
 .colcon/
 .rosinstall
 CATKIN_IGNORE
+
+../AGENTS.md
+
+# AI agent notes (local only)
+AGENTS.md
+CLAUDE.md
